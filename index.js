@@ -61,8 +61,8 @@ const fi = (function() {
     
     // NOTE: 'flatten' should accept an array and an optional boolean parameter 'shallow'; it will return a new, flattened array
     // HINT: how can we handle the case where 'shallow' is not passed in?
-    // HINT: you will need to use recursion to code this lab for the case where 'shallow' is not passed in
-    // HINT: for the case where we're using recursion, how can we make sure that the new array we're creating is not overwritten 
+    // HINT: you will need to use recursion to code this lab for the 'non-shallow' case
+    // HINT: where we're using recursion, how can we make sure that the new array we're creating is not overwritten 
     // when we call the function?
     flatten: function() {
       
